@@ -8,7 +8,7 @@ data=pd.read_csv('src/data.csv',sep=',')
 corr=data.corr()
 #print(corr)
 
-a=pd.read_csv('src/g2-2-20.txt',sep='   ')
+a=pd.read_csv('src/g2-2-20.txt',sep='     ')
 
 print(a)
 
