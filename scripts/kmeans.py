@@ -8,10 +8,10 @@ data=pd.read_csv('src/data.csv',sep=',')
 corr=data.corr()
 #print(corr)
 
-a=pd.DataFrame(pd.read_csv('src/g2-2-20.txt'))
-print(type(a))
+a=pd.read_csv('src/g2-2-20.txt',sep='   ')
 
-pd.DataFrame.plot(a)
+print(a)
 
-plt.plot([[1,1],[2,3]])
+
+
 plt.savefig('img.png')
