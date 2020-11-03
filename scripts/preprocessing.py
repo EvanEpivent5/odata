@@ -9,3 +9,5 @@ def preprocessingfunc(data):
     scaler.fit(data)
     data=scaler.transform(data)
     return(data,pays)
+
+    #remplir les NaN
