@@ -2,7 +2,7 @@ from sklearn.cluster import KMeans
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data=pd.read_csv('src/data.csv',sep=',')
+data=pd.read_csv('src/data.csv',sep='     ')
 
 
 corr=data.corr()
