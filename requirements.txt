@@ -2,3 +2,5 @@ pandas
 ipykernel
 matplotlib
 sklearn
+numpy
+matplotlib
